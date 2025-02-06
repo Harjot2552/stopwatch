@@ -40,6 +40,13 @@
             displayTime.innerHTML = h + " : " + m + " : " + s
         }
 
+        function watchStart(){
+            if(timer!=null){
+                clearInterval(timer);
+            }
+            timer = setInterval(stopwatch, 1000)
+        }
+
 
 
     </script>
