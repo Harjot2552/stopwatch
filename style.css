@@ -32,3 +32,22 @@ body{
     font-weight: 300;
 
 }
+
+
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img{
+    width: 60px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.buttons img:nth-child(2){
+    white-space: 80px;
+}
